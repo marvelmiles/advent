@@ -10,11 +10,11 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "form-serialization": "^0.11.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.0",
     "reactstrap": "^8.5.1",
     "scrollreveal": "^4.0.7",
     "styled-components": "^5.1.1"
