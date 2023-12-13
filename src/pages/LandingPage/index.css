@@ -1,0 +1,140 @@
+/*PRODUCT */
+#product {
+  margin-top: 15vh;
+}
+
+.product-btn {
+  background: transparent !important;
+  border: 1px solid var(--primary) !important;
+  color: var(--primary);
+  padding: 10px 21px !important;
+  outline: none !important;
+  letter-spacing: 2px !important;
+}
+
+.product-btn:hover {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.product-right,
+.product-left {
+  margin-top: 100px;
+}
+
+/*Testimonial */
+
+#testimonial {
+  background: var(--secondary);
+  width: 100% !important;
+}
+
+.customer {
+  font-family: "Josefin Sans";
+  color: #111111 !important;
+}
+
+/* feature list */
+
+.feature-list {
+  font-size: 12px !important;
+}
+
+#feature-sub {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(146, 127, 84, 0.99)
+    ),
+    url("../../image/Desert.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0 150px 0;
+}
+
+/*light shade */
+.feature2-btn {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+/*PRICING */
+
+.pricing-content {
+  margin-top: 120px;
+}
+
+.pricing-tag {
+  font-size: 18px;
+}
+
+.img-width,
+.img {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+@media screen and (min-width: 576px) {
+  .img,
+  .img-width {
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  .feature2 h3 {
+    font-weight: normal !important;
+  }
+
+  .feature2 {
+    width: 75% !important;
+    text-align: justify !important;
+    float: left !important;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .img,
+  .img-width {
+    width: 360px !important;
+    height: 360px !important;
+  }
+
+  .product-left {
+    margin-top: 0 !important;
+  }
+
+  .feature-list {
+    margin-top: 10vh !important;
+  }
+
+  .feature-list ul {
+    text-align: justify !important;
+  }
+
+  .li-circle {
+    list-style-type: circle;
+
+    font-size: 18px !important;
+  }
+
+  .feature-sub {
+    width: 75% !important;
+  }
+
+  .pricing-content {
+    text-align: justify !important;
+  }
+
+  .feature2 {
+    width: 75% !important;
+    text-align: justify !important;
+    float: right !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature2 {
+    width: 50% !important;
+  }
+}

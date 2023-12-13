@@ -1,0 +1,51 @@
+:root {
+  --primary: #82714a !important;
+  --secondary: rgba(204, 204, 204, 0.4) !important;
+  --light-pri: rgba(104, 90, 59, 0.6);
+  --light-sec: rgba(204, 204, 204, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+li {
+  list-style: none;
+}
+
+.cus-text-pri {
+  color: var(--primary);
+}
+
+.cus-bg-pri {
+  background: var(--primary) !important ;
+}
+
+.cus-bg-sec {
+  background: var(--secondary);
+}
+
+.cus-border-white {
+  border: 2px solid #fff !important;
+  outline: none;
+}
+
+.font-12 {
+  font-size: 15px !important;
+}
+
+.form-control:focus,
+input:focus {
+  box-shadow: none;
+  outline: 0;
+  border-color: transparent !important;
+}

@@ -1,0 +1,36 @@
+.nav-top {
+  top: 28px !important;
+  background: transparent;
+  transition: all 500ms ease-in-out;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.nav-0 {
+  top: 0;
+  background: #fff !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 500ms ease-in-out !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-nav {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .collapse {
+    background: transparent !important;
+    color: var(--secondary) !important;
+  }
+}
