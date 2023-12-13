@@ -1,6 +1,6 @@
 {
   "homepage": "https://marvelmiles.github.io/advent",
-  "name": "deployed",
+  "name": "advent",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
